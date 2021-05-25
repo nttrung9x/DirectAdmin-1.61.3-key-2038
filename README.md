@@ -11,7 +11,7 @@ psmisc net-tools systemd-devel libdb-devel perl-DBI perl-Perl4-CoreLibs perl-lib
 
 **Install DirectAdmin 2038**
 
-wget https://raw.githubusercontent.com/NOTAD/DirectAdmin-1.61.3-key-2038/main/update1613-CentOS7.sh
+wget https://raw.githubusercontent.com/nttrung9x/DirectAdmin-1.61.3-key-2038/main/update1613-CentOS7.sh
 
 chmod 755 update1613-CentOS7.sh
 
@@ -39,7 +39,7 @@ service directadmin stop
 
 cd /usr/local/directadmin/conf
 
-wget -O license.key https://raw.githubusercontent.com/NOTAD/DirectAdmin-1.61.3-key-2038/main/license.key
+wget -O license.key https://raw.githubusercontent.com/nttrung9x/DirectAdmin-1.61.3-key-2038/main/license.key
 
 chown diradmin:diradmin license.key
 
